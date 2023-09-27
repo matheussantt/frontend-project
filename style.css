@@ -1,0 +1,81 @@
+/* Arquivo de estilização da Landing Page da Uber */
+
+/* Estilos do corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o cabeçalho */
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+/* Estilos para a seção principal */
+
+.main-section {
+    padding: 100px 0;
+    background-image: url(imgs/01.jpg); /* Imagem de fundo*/
+    background-size: cover; /*Define o tamanho da imagem de fundo*/
+    background-position: center; /* Define a posição da imgem */
+    background-repeat: no-repeat; /* A imagem não se repetec*/
+    color: #fff; /* Defina a cor do texto para que seja legível na imagem de fundo */
+    z-index: 1; /* Garante que a sobreposição fique acima da imagem de fundo */
+}
+
+/* Estilização da seção principal*/
+
+.main-section {
+    padding: 100px 0;
+    background-color: #f8f8f8;
+}
+
+.main-section h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.main-section p {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+/* Estilização do rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer h3 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsividade */
+  
+@media (max-width: 768px) {
+    .main-section {
+        padding: 50px 0;
+    }
+}
